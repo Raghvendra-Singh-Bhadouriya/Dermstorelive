@@ -1,0 +1,285 @@
+
+#home-top-bigimg-container > img{
+    width:100%;
+    border:2px solid black;
+}
+
+/*=====================================================================*/
+#main-image-container{
+    border:0px solid black;
+}
+.six-slider-image{
+    border:0px solid blue;
+    margin:5% 2% 5% 2%;
+}
+.circular-image-container{
+    border:0px solid red;
+}
+.circular-image-container > img{
+    width:100%;
+}
+
+/*===================================================================================*/
+#best-seller-main-container{
+    border:0px solid black;
+    padding-top:8%;
+}
+.slider-container{
+    width:96%;
+    border:0px solid blue;
+    justify-content: center;
+    margin: auto;
+}
+.product-details-container{
+    width:95%;
+    border:0px solid red;
+    text-align: center;
+    font-family:"lato regular", Helvetica, Arial, sans-serif ;
+    font-style: normal;
+    font-weight: 500;
+    margin:auto;
+}
+.product-img-container{
+  border:0px solid yellow;
+  width:95%;
+  margin:auto;
+}
+.product-img-container > img{
+    width:100%;
+}
+.product-text-container{
+  border:0px solid red;
+  width:95%;
+  padding-top:8%;
+  margin:auto;
+}
+
+/*====================================================Middle Big Image===============================*/
+#home-mid-bigimg-container{
+  border:0px solid black;
+  margin-top:4%;
+}
+#home-mid-bigimg-container > img{
+  width:100%;
+}
+
+/*================================================Best Seller Offer Container===================================*/
+#bestseller-parent-div{
+  border:0px solid black;
+}
+#bestseller-parent-div > p{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size:24px;
+  line-height:32px;
+}
+#bestseller-parent-div >p + p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight:500;
+  font-size:15px;
+  font-style: normal;
+  line-height:1px;
+  color:rgb(36, 35, 35);
+}
+#bestseller-child-container{
+  border:0px solid blue;
+  display:flex;
+  margin:4% 2% 2% 2%;
+}
+.bestseller-right-bigImage-container{
+  border:0px solid green;
+  width:45%;
+}
+.bestseller-right-bigImage-container > img{
+  width:100%;
+  height:320px;
+}
+.bestseller-left-slider-container{
+  border:0px solid green;
+  margin-left: 2%;
+  width:50%;
+}
+
+/*==========================================================================*/
+#refreshsale-main-container{
+  border:0px solid black;
+  margin-top:8%;
+}
+.refreshsale-heading{
+  margin-bottom:4%;
+  text-align: center;
+  font-style: normal;
+  line-height: 32px;
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.refreshsale-slider-container{
+  border:0px solid black;
+  width:95%;
+  margin:auto;
+}
+.refreshsale-product-child-div{
+  border:0px solid blue;
+  width:90%;
+  margin:auto;
+  position: relative;
+}
+.refreshsale-product-child-div > img{
+  width:100%;
+}
+.refreshsale-product-child-div > button{
+  position: absolute;
+  width:auto;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(27, 27, 27);
+  color: rgb(255, 255, 255);
+  padding:3% 5% 3% 5%
+}
+
+/*=======================================Last Big Image=======================================================*/
+#home-last-bigimg-container{
+  border:0px solid black;
+  margin-top:7%;
+  cursor: pointer;
+}
+#home-last-bigimg-container > img{
+  width:100%;
+}
+
+/*==============================================================================*/
+#springready-beauty-main-div{
+  width:100%;
+  text-align: center;
+}
+#springready-beauty-main-div > p{
+  font-size:24px;
+  margin-top:5%;
+  font-style: normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.springready-beauty-child-div{
+  border:0px solid black;
+  width:95%;
+  display:flex;
+  margin:auto;
+  justify-content: space-between;
+}
+.springready-beauty-product-div{
+  border:0px solid green;
+  width:32%;
+  text-align: center;
+  font-size:18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.springready-beauty-product-div > img {
+  width:100%;
+}
+.springready-beauty-product-div > button{
+  width:auto;
+  top: 90%;
+  border:1 px rgb(19, 18, 18);
+  color: black;
+  background-color:white;
+  padding:3% 7% 3% 7%;
+}
+
+/*===============================From The Blog====================================*/
+#fromtheblog-main-div{
+  border:0px solid black;
+  width:100%;
+  margin-top:5%;
+  text-align: center;
+  padding-bottom:6%;
+}
+#fromtheblog-main-div > p{
+  font-size: 24px;
+  line-height: 32px;
+  font-style: normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fromtheblog-slider-div{
+  border:0px solid blue;
+  width:95%;
+  margin:auto;
+  
+}
+.fromtheblog-product-div{
+  border:0px solid black;
+  width:90%;
+  justify-content: space-between;
+}
+.fromtheblog-product-div > img{
+  width:100%;
+}
+.fromtheblog-product-div > p{
+  font-size: 16px;
+  text-decoration: underline;
+}
+.fromtheblog-product-div >p:hover{
+  text-decoration: none;
+}
+
+
+
+
+/*===================================================================================*/
+/* CSS for slider buttons */
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 40px; /* Adjust width as needed */
+  height: 40px; /* Adjust height as needed */
+  background-color: rgba(255, 255, 255, 0.5); /* Background color */
+  border: none; /* Remove default border */
+  border-radius: 50%; /* Make it round */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Styling for the button icon (optional) */
+.slick-prev:before{
+    display: inline-block;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+  transform: rotate(45deg);
+}
+.slick-next:before {
+  content: "";
+  display: inline-block;
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+  border-left: 2px solid #000; /* Adjust icon color */
+  border-bottom: 2px solid #000; /* Adjust icon color */
+  transform: rotate(+225deg);
+}
+
+/* Styling for the hover effect (optional) */
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: rgba(255, 255, 255, 0.8); /* Hover background color */
+}
+
+
+.slick-dots li {
+    margin: -10px 1px; /* Adjust spacing between points */
+  }
+  
+  .slick-dots li button {
+    font-size: 0; /* Hides the default text inside button */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; /* Makes points circular */
+    background-color: #fff; /* Change color as needed */
+    border: 1px solid #ccc; /* Border color */
+  }
+  
+  .slick-dots li.slick-active button {
+    background-color: #000; /* Change color of active point */
+  }

@@ -1,0 +1,119 @@
+#footer-main-div{
+    border:0px solid black;  
+}
+#signup-and-contactus-main-div{
+    border:0px solid black;
+    display:flex;
+    width:95%;
+    margin:auto;
+}
+.signup-and-discountdeals{
+    border:0px solid black;
+    width:50%
+}
+.signup-and-discountdeals > p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+.signup-and-discountdeals > button{
+    background-color: rgb(27, 27, 27);
+  color: rgb(255, 255, 255);
+  padding:2% 6% 2% 6%
+}
+.contact-with-us{
+    border:0px solid black;
+    width:50%;
+}
+.contact-with-us > p{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 14px;
+}
+.social-icons {
+    border:0px solid black;
+    display: flex;
+    gap: 5%;
+}
+
+#Main-div-CACL{
+    border:0px solid black;
+    margin-top:2%;
+    margin-bottom:4%;
+}
+.child-div-CACL{
+    border:0px solid black;
+    width:95%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+}
+.CACL{
+    border:0px solid blue;
+    width:22%;
+}
+.CACL > p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom:15%;
+}
+.link{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+#pay-securly-main-div{
+    border:0px solid black;
+}
+.pay-securly-child-div{
+    border:0px solid blue;
+    width:95%;
+    margin:auto;
+    display:flex;
+    padding-bottom: 2%;
+    justify-content: space-between;
+}
+.company{
+    border:0px solid green;
+    width:48%;
+}
+.THG-img-div{
+    border:0px solid black;
+    width:45%;
+    margin-top:10%;
+    font-size: 16px;
+    font-weight:500;
+    font-style: normal;
+    color:rgb(117, 117, 117);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.THG-img-div > img{
+    width:45%;
+}
+.company > p{
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    color:rgb(0, 0, 0);
+    margin-top: 8%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#company-name-img-div{
+    border:0px solid black;
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+    gap:1%;
+}
+.cmpny-imgs{
+    border:1px solid rgb(158, 149, 149);
+    cursor: pointer;
+}
+.cmpny-imgs > img{
+    width:100%;
+
+}
